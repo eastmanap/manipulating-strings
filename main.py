@@ -1,12 +1,14 @@
-# Your first and last name 
-# Add the current date
+# Apollos Eastman
+# 09 Sep 2024
 # String Manipulation
 
 # Part 1
 # Define a variable and assign it the string that is your last name
 # Then tell Python to print the value assigned to the variable
 
+last_name = 'Eastman'
 
+print (last_name)
 
 
 
@@ -15,16 +17,18 @@
 # Assign the length of your first name to a variable named num_characters
 # Have Python print the value stored in the num_characters variable
 
+num_characters = len('Apollos')
 
-
+print (num_characters)
 
 
 # Part 3
 # Use the input( ) and len( ) functions to prompt (ask) the user to enter their last name
 # Then have Python print the length (number of characters) in the last name
 
+last_name = input('Enter your last name here')
 
-
+print (len(last_name))
 
 
 # Part 4
